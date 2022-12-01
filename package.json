@@ -6,14 +6,11 @@
   "main": "src/index.js",
   "experimentalDecorators": true,
   "dependencies": {
-    "mobx": "5.15.4",
+    "mobx": "^6.7.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
     "rxjs": "6.5.5"
-  },
-  "devDependencies": {
-    "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -26,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.20.5"
+  }
 }
